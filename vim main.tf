@@ -13,7 +13,7 @@ Name = "Terrainstance"
 }
 
 resource "aws_s3_bucket" "two" {
-  bucket = "rajesh01122"
+  bucket = "rajeshbabu01122"
   }
   
  resource "aws_ebs_volume" "three" {
