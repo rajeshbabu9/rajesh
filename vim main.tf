@@ -18,7 +18,7 @@ resource "aws_s3_bucket" "two" {
   
  resource "aws_ebs_volume" "three" {
   availability_zone = "us-east-1a"
-  size              = 40
+  size              = 8
 
   tags = {
     Name = "HelloWorld"
